@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/*메인서식*/
+
+main{
+  
+}
+.mySwiper{
+  position: relative;
+  padding-top: 80px;
+}
+.slide{
+  width:100%;
+}
+.slide img{
+  width: 100%;
+}
+.slide h2{
+  display: none;
+}
+.c_wrap{
+  width:1025px;
+  margin:0px auto;
+  display:flex;
+  justify-content:space-between;
+}
+.c01{
+  width:340px;
+  /*background:#56e7b7;*/
+}
+.co1 h2{
+  display: none;
+}
+.c02{
+  width:380px;
+  /*background:#b3fff2;*/
+}
+.co2 h2{
+  display: none;
+}
+.c03{
+  width:260px;
+  /*background:#bce1ff;*/
+}
+
+section > h2{
+  display: none;
+}
+
+/*뉴스제목, 진료케이스 제목*/
+.news > h2, .news2 > h2{
+  color:#525d9f;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid #3834ad;
+  padding: 15px 0px 10px;
+  text-transform: uppercase;
+}
+
+/*news목록 서식*/
+.news li{
+  text-indent: 10px;
+}
+.news li a{
+  font-size: 13px;
+  line-height: 28px;
+}
+
+.info{
+  padding-top: 60px;
+}
+.info > h2, .class_info h2{
+  display: none;
+}
+
+/* 2. 중앙 콘텐츠 서식 */
+.class_info{
+  width: 320px;
+  margin: 0 auto;
+}
+.class_info > ul{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, 85px);
+}
